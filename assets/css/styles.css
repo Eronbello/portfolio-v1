@@ -967,6 +967,10 @@ img{
     background-color: var(--scroll-thumb-color);
     border-radius: .5rem;
 }
+
+.project__container {
+  padding-bottom: 2.5rem;
+}
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px){
@@ -1046,7 +1050,6 @@ img{
 
     .about__container,
     .portfolio__content,
-    .project__container,
     .footer__container{
         grid-template-columns: repeat(2, 1fr);
     }
