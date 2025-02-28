@@ -54,6 +54,59 @@ export const seoData = {
   mailAddress: "eron.bello@gmail.com",
 };
 
+export const experience = [
+  {
+    company: "Wellhub",
+    role: "Senior Software Engineer",
+    duration: "Jan 2025 - Present",
+    location: "Remote | São Paulo, Brazil",
+    description: "Designing and optimizing backend architectures with Rust and Golang to handle high-traffic systems. Implementing scalable, efficient APIs and enhancing system reliability."
+  },
+  {
+    company: "Wiley",
+    role: "Senior Fullstack Developer | Java | Node | React",
+    duration: "Oct 2023 - Jan 2025",
+    location: "Remote | Curitiba, Brazil",
+    description: "Led backend optimization initiatives using Golang and Node.js, improving API performance and system stability. Designed scalable microservices and enhanced DevOps processes."
+  },
+  {
+    company: "TUI",
+    role: "Senior UI Engineer",
+    duration: "May 2021 - Oct 2023",
+    location: "Hannover, Germany",
+    description: "Developed and maintained micro front-ends, reducing page load times from 4s to less than 1s. Mentored junior developers and introduced best practices for frontend optimization."
+  },
+  {
+    company: "HeroSpark",
+    role: "Front-end Developer",
+    duration: "Aug 2020 - May 2021",
+    location: "Curitiba, Brazil",
+    description: "Revamped the company's flagship product architecture, increasing scalability and performance. Migrated CI/CD pipelines from GitLab to GitHub Actions."
+  },
+  {
+    company: "Orange Trade",
+    role: "Full-stack Developer",
+    duration: "Feb 2020 - Aug 2020",
+    location: "São Paulo, Brazil",
+    description: "Developed a smart payment terminal using Golang, Node.js, and Vue.js. Designed and deployed cloud infrastructure with AWS and Kubernetes."
+  },
+  {
+    company: "B2Beauty Group",
+    role: "Full-stack Developer",
+    duration: "Jul 2019 - Aug 2020",
+    location: "Curitiba, Brazil",
+    description: "Led migration from Azure to AWS, cutting costs by 30%. Developed scalable cloud applications using VueJS, Node, and Golang."
+  },
+  {
+    company: "Vidya Technology",
+    role: "Front-end Developer Intern",
+    duration: "May 2018 - Feb 2019",
+    location: "Curitiba, Brazil",
+    description: "Built responsive UI components for corrosion analysis software using Vue.js and Vuetify, improving performance and reliability."
+  }
+];
+
+
 export const siteMetaData = [
   {
     name: "description",

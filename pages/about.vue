@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { aboutPage, footerData, navbarData } from '~/data'
+import { aboutPage, experience, footerData, navbarData } from '~/data';
 
 useHead({
   title: 'About',
@@ -9,23 +9,23 @@ useHead({
       content: footerData.aboutAuthor,
     },
   ],
-})
+});
 
 defineOgImageComponent('About', {
   headline: 'Greetings 👋',
   title: navbarData.homeTitle,
-  description: 'Dive into web development with me and learn Js, Ts, Vue, Nuxt, Docker, k8s',
+  description: 'Rust & Go enthusiast, building scalable backend systems.',
   link: '/eron.jpeg',
-})
+});
 </script>
 
 <template>
   <div class="py-5">
-    <div class="sm:grid grid-cols-8 px-6 py-5 sm:py-9 gap-5 container max-w-5xl  mx-auto">
-      <div class="col-span-5  max-w-md">
+    <div class="sm:grid grid-cols-8 px-6 py-5 sm:py-9 gap-5 container max-w-5xl mx-auto">
+      <div class="col-span-5 max-w-md">
         <div class="flex justify-between">
           <div>
-            <h1 class="text-xl sm:text-4xl  pb-2 font-bold ">
+            <h1 class="text-xl sm:text-4xl pb-2 font-bold">
               {{ aboutPage.title }}
             </h1>
 
@@ -49,29 +49,25 @@ defineOgImageComponent('About', {
             </div>
           </div>
           <div class="sm:hidden block col-span-3 pb-5 dark:text-[#F1F2F4]">
-            <NuxtImg
-              src="/eron.jpeg"
-              width="125"
-              height="115"
-              quality="50"
-              class="rounded-md"
-            />
+            <NuxtImg src="/eron.jpeg" width="125" height="115" quality="50" class="rounded-md" />
           </div>
         </div>
         <h3 class="text-base sm:text-3xl font-semibold pb-7 sm:pb-12">
           {{ aboutPage.description }}
         </h3>
-
         <p>{{ aboutPage.aboutMe }}</p>
+
+        <h2 class="text-xl font-bold mt-10">Experience</h2>
+        <ul class="mt-5">
+          <li v-for="job in experience" :key="job.company" class="mb-6">
+            <h3 class="text-lg font-semibold">{{ job.role }} - {{ job.company }}</h3>
+            <p class="text-sm text-gray-600">{{ job.duration }} | {{ job.location }}</p>
+            <p class="mt-2">{{ job.description }}</p>
+          </li>
+        </ul>
       </div>
       <div class="hidden sm:block col-span-3">
-        <NuxtImg
-          src="/eron.jpeg"
-          width="450"
-          height="500"
-          quality="50"
-          class="rounded-md"
-        />
+        <NuxtImg src="/eron.jpeg" width="450" height="500" quality="50" class="rounded-md" />
       </div>
     </div>
   </div>
