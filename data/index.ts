@@ -1,52 +1,52 @@
 /* eslint-disable @typescript-eslint/semi */
 /* eslint-disable @typescript-eslint/quotes */
 export const navbarData = {
-  homeTitle: "Eron's Blog",
+  homeTitle: "Rust & Go: Backend Mastery",
 };
 
 export const footerData = {
   author: "Eron Bello",
   aboutAuthor:
-    "Hi! I am Eron Bello, a Senior Software Engineer specializing in Golang and backend development, with over 7 years of professional experience. Currently working as a Senior Backend Developer at Wellhub. Passionate about technology, I love solving complex problems and creating scalable solutions. Let's connect!",
+    "Hey! I'm Eron Bello, a Senior Software Engineer specializing in Rust and Golang, with 7+ years of experience in backend development. Currently building scalable, high-performance systems at Wellhub. Passionate about concurrency, distributed systems, and writing fast, efficient code.",
   authorInterest:
-    "I have extensive knowledge in Golang, backend architecture, and JavaScript ecosystems. If you have an interesting idea, whether open source or paid, feel free to reach out.",
+    "I love working on Rust and Go projects, whether it's open-source, performance optimizations, or building robust backend architectures. If you've got an exciting idea, feel free to reach out!",
   aboutTheSite:
-    "This is a personal blog site built with Nuxt3, TailwindCSS, NuxtContent, and Nuxt Icon. Currently, it's deployed on Vercel.",
+    "This blog is built with Nuxt3, TailwindCSS, NuxtContent, and Nuxt Icon, deployed on Vercel. It’s a space where I share insights on Rust, Golang, and backend engineering best practices.",
 };
 
 export const homePage = {
-  title: "Welcome to My Blog",
+  title: "Rust & Go: Building Fast, Safe, and Scalable Backends",
   description:
-    "Here you will find articles, tips, and resources on backend development, Golang, Node.js, JavaScript, and other related topics.",
+    "Hands-on guides, deep dives, and real-world lessons on Rust and Golang—performance, concurrency, and everything backend devs love.",
 };
 
 export const blogsPage = {
   title: "All Blog Posts",
   description:
-    "Here you will find all the blog posts I have written and published on this site.",
+    "Explore articles, guides, and insights on Rust, Golang, and backend architecture.",
 };
 
 export const categoryPage = {
   title: "Categories",
   description:
-    "These categories are generated from all the tags mentioned in the different blog posts.",
+    "Browse by category—Rust, Go, performance tuning, system design, and more.",
 };
 
 export const aboutPage = {
   title: "Eron Bello",
   description:
-    "Senior Software Engineer, Specialist in Golang and Backend Development.",
+    "Senior Software Engineer | Rust & Golang Specialist",
   aboutMe:
-    "Hello! I am a Senior Software Engineer with over 7 years of experience, passionate about creating scalable and efficient backend solutions to complex problems. Currently working at Wellhub, and when I'm not coding, I'm learning new technologies or helping other developers improve their skills. If you are looking for a dedicated and highly qualified backend engineer, I’m available to collaborate on challenging projects.",
+    "Hello! I’m a backend engineer with 7+ years of experience designing scalable, high-performance systems. My work revolves around Rust and Golang, focusing on building fast, safe, and efficient backend architectures. Always exploring new tech, optimizing code, and contributing to open-source. Let's build something amazing together!",
 };
 
 export const seoData = {
   description:
-    "Eron Bello, Senior Software Engineer with over 7 years of experience, specializing in Golang and backend development.",
+    "Eron Bello, Senior Software Engineer specializing in Rust and Golang, sharing insights on high-performance backend development.",
   ogTitle:
-    "Eron Bello - Blog on Backend Development, Golang, Node.js, and More",
+    "Eron Bello - Blog on Rust, Golang, and Scalable Backend Engineering",
   twitterDescription:
-    "My personal blog where I share resources, tips, and articles on Golang, backend development, and more.",
+    "My personal blog featuring in-depth articles on Rust, Golang, and modern backend development.",
   image:
     "https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp",
   mySite: "https://eron.vercel.app",
